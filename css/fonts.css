@@ -1,0 +1,11 @@
+@font-face { /* permite importar una fuente externa personalizada */
+    font-family: "montserrat"; /* asigna un nombre para la fuente que vas a crear */
+    src: url("montserrat/Montserrat-ExtraLight.ttf") format(truetype); /* escribimos en donde esta almacenada la tipografia */
+    font-weight: 100;
+}
+
+@font-face { /* permite importar una fuente externa personalizada */
+    font-family: "montserrat"; /* asigna un nombre para la fuente que vas a crear */
+    src: url("montserrat/Montserrat-MediumItalic.ttf") format(truetype); /* escribimos en donde esta almacenada la tipografia */
+    font-weight: 400;
+}

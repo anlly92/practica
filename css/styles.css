@@ -1,0 +1,140 @@
+body{
+    background:url(https://sientelbaile.com/wp-content/uploads/2019/01/bachata-cantantes-mejores.jpg) center/ cover fixed #002;
+    margin: 0;
+}
+
+/* header */
+.heade{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* logo */
+.logo{
+    width: 5%;
+    margin: 10px;
+}
+
+/* menu */
+.menu{
+    width: 26%;
+    padding: 5px;
+}
+
+.elementos_menu{
+    margin: 8px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none
+}
+
+/* barra de busqueda */
+
+.formulario{
+    width: 68%;
+    padding: 5px ;
+}
+
+.formulario_input {
+    padding: 5px 10px;
+    width: 85%;
+    background-color:transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin: 2px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.boton{
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+/* primer cuadrado*/
+.primer-bloque{
+    width: 60%;
+    box-sizing: border-box;
+    background-color: #002 ;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 50px;    
+    border-top: 4px solid rgb(39, 39, 39);
+    border-radius: 50px 50px 0 0 ;
+    box-shadow: 0 0 40px 10px #0009;
+}
+
+/* en este bloque se encuentra la imagen y la historia*/
+.texto{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h1 {
+    padding-top: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 0 0 20px rgb(9, 138, 203);
+}
+
+/* historia */
+.historia {
+    font-family: montserrat;
+    font-size: 12px;
+    font-weight: 100;
+    text-align:justify;
+    line-height: 2;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+/* primera imagen de la pagina */
+.primera-imagen{
+    width: 40%;
+    padding: 50px 0 50px 30px;
+}
+
+.box{
+    width: 400px;
+    margin: 500px 120px;
+    border-radius: 50px;
+    border-left: 4px solid #222;
+    background:linear-gradient( to right, #002,transparent );
+    position: absolute;
+    top: 0;
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 20px 0 #222;
+}
+
+
+.segunda-imagen{
+    width: 160px ;
+    height: 160px;
+    border-radius: 100%;
+    box-shadow: 0 0 50px 0 #028;
+}
+
+.reseña{
+    font-family: cursive;
+    font-size: 20px ;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-shadow: 0 0 4px #09f;
+}
+
+.reseña-texto{
+    padding: 2px 20px;
+    text-align: justify;
+    font-family:sans-serif;
+    font-size: 10px;
+    line-height:15px ;
+    text-shadow: 0 0 7px #09f;
+}
+
